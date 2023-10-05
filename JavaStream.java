@@ -24,7 +24,7 @@ public class JavaStream {
     productList.add(new Product(13, "Laptop2", 20000));
     productList.add(new Product(16, "Laptop3", 30000));
     productList.add(new Product(18, "Laptop4", 40000));
-
+    System.out.println(productList);
     List<Float> productList2 =productList.stream()
     .filter(p ->p.price> 20000) // filtering data  
     .map(p ->p.price)  //fetching

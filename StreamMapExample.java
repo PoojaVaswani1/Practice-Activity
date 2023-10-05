@@ -1,3 +1,7 @@
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 public class StreamMapExample {
     public static void main(String[] args) {
     List<String> fruits = Arrays.asList("apple", "banana", "orange", "grape", "mango");
